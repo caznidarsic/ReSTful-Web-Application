@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hike Quote Generator</title>
+
+<script src="ValidateHikers.js">  </script>
+</head>
+
+
+<body>
+
+
+<form action="/znidarsic_c_hw12/webresources/getquote" method=POST>
+<h1>Hike Quote Generator</h1>
+
+Choose Hike:
+<select name="Hike" id=hikeSelector>
+
+<option value="Navajo Loop">Navajo Loop</option>
+<option value="Bryce Canyon Rim">Bryce Canyon Rim</option>
+<option value="Fairyland Loop">Fairyland Loop</option>
+<option value="Riggs Spring Loop">Riggs Spring Loop</option>
+<option value="Peek-a-boo Loop">Peek-a-boo Loop</option>
+
+</select>
+<br />
+
+Choose Start Date:
+<input name="Date" id="dateSelector" type="date">
+<br />
+
+Choose Duration:
+<select name="Duration" id=durationSelector>
+
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+
+</select>
+<br />
+
+Choose Number of Hikers:
+<select name="Hikers" id=hikersSelector>
+
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+</select>
+<br />
+
+
+<input type="SUBMIT" id="submitButton">
+
+
+</form>
+
+		
+</body>
+</html>
